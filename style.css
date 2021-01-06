@@ -1,22 +1,35 @@
 
-h1{
-    font-size: 30px;
+h1{ font-weight: 600;
+    font-size: 40px;
     color: steelblue;
 }
-h2{
-    font-size: 20px;
+h2{font-weight: 600;
+    font-size: 30px;
     color: slateblue;
+    text-align: center;
 }
-h4{
+h4{font-weight: 600;
     color: rgb(57, 46, 131);
 }
-p{
-   font-size: 15px;
+.p0{ font-size: 20px;
+    text-align: right;
+    margin-right: 5px;
+    padding: 15px;
+}
+p{font-weight: 600;
+   font-size: 25px;
+}
+.p{ font-size: 15px;
+    text-align: center;
+}
+.p1{
+    font-size: 40px;
+    text-align: center;
 }
 body{
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
-    font-family: 'Anton', sans-serif; 
+    font-family: 'Nunito', sans-serif; 
 }
 .half-width{
     width: 40%;
@@ -41,7 +54,7 @@ body{
    
 }
 .top-banner{
-    background-color: rgb(235, 233, 229);
+    background-color: white;
     
 }
 section{
@@ -49,7 +62,7 @@ section{
     padding-bottom: 10px;
 }
 .mid-banner{
-    background-color: rgb(235, 233, 229);
+    background-color: white;
 }
 .other-half{
     width: 40%;
@@ -69,41 +82,69 @@ section{
    
 }
 .buttom-banner{
-    background-color:  rgb(201, 194, 181);
+    background-color: whitesmoke
 }
 
-.thired-half{ 
+.third-half{ 
    
-    
+    height: 500px;
     font-weight: 800;
     width: 100%;
-   
-    margin: 2%;
-    padding: 2% ;
+    margin-bottom: 10px;
+    margin: 3%;
+    padding: 1% ;
 }
-.thired-half img{
-  
+.box{
+    
+   height: 300px;
+   width: 30%;
+    border-radius: 5px;
     float:left;
-    height: 40%;
-    width: 20%;
+   margin: 1px;
+   padding: 1px;
+}
+
+.box img{
+     height:250px;
+    width: 90%;
     margin: 10px;
     padding: 0% ;
-}
-.last-blue{
+} 
     
+.last-blue{
+    width: 60%;height:250px;
+    background-image: url("lastpart.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 300px;
+    border-radius: 100px;
 }
-.last{
-    background-image: url("lastpart.png"); 
+.last1{
+   text-align: center;
+    font-size: 30px;
+    color: rgb(229, 230, 240);
+    padding: 110px;
+    margin-top: 3px;
+    float: left;
+   
+}
+.last2{
     text-align: center;
-    font-size: 20px;
-    color: white;
-   
-   
+    
+    padding: 110px;
+    margin-top: 5px;
+    float: right;
 }
 .last-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, tomato, red);
     color: whitesmoke;
-    padding: 10px 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
    
+}
+.last-line img{
+    margin-left: 300px;
+    size: .05px;
+    padding: 0px;
 }
